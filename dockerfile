@@ -1,4 +1,4 @@
-FROM dockerhub.paypalcorp.com/bcdc/dev/ci/agents/ubuntu-python:3.8
+FROM dockerhub.XYZ.com/OrgName/dev/ci/agents/ubuntu-python:3.8
 
 # Setting environement variables which can be configured to receive parameter from Jenkins Job run and pass the values to the Docker containers.
 ENV artifactoryUserName="user"
